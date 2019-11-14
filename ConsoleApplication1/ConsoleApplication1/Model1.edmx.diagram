@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="021afabe61a44bada5ce450e18746a2a" Name="Diagram1">
+        <EntityTypeShape EntityType="OOPCSModel.Expenditure" Width="1.5" PointX="5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OOPCSModel.Member" Width="1.5" PointX="2.375" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="OOPCSModel.FK__Member__Father_i__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="OOPCSModel.FK__Member__Mother_i__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="OOPCSModel.FK__Member__Spouse_i__1A14E395" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
